@@ -1,0 +1,10 @@
+images:
+- name: lelandsindt/siotwt
+  newTag: dev 
+
+namespace: siotwt
+
+resources:
+- siotwt.yaml 
+- ingress.yaml
+
