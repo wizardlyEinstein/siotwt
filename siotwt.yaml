@@ -32,6 +32,9 @@ spec:
       labels:
         app.kubernetes.io/name: siotwt
     spec:
+      securityContext:
+        runAsUser: 1000
+        runAsGroup: 1000
       containers:
         - name: siotwt 
           image: lelandsindt/siotwt:dev
