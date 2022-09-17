@@ -1,6 +1,6 @@
 images:
 - name: lelandsindt/siotwt
-  newTag: dev3
+  newTag: dev4
 
 namespace: siotwt
 
